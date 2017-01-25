@@ -14,9 +14,14 @@ public interface DataStoreReadInterface {
 	 * @return all questions stored
 	 */
 	
+	//Hallo wie gehts
+	
 	//was machst du 
 	
 	//ajskaksdlakjds
+	
+	
+	//babababbabaaaa
 	List<Integer> getAllQuestions();
 
 	/**
