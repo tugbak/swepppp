@@ -36,6 +36,7 @@ public class VotingServiceImplMockTest {
 		
 		
 		when(dbReadMock.getDescriptionOfQuestion(1)).thenReturn(
+				
 				"Mögen Sie Schokoeis?");
 		when(dbReadMock.getVotesForQuestion(1)).thenReturn(votes);
 		when(dbReadMock.getStatusOfQuestion(1)).thenReturn(false);
