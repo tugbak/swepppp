@@ -13,6 +13,8 @@ public interface DataStoreReadInterface {
 	 * 
 	 * @return all questions stored
 	 */
+	
+	//Hallo wie gehts
 	List<Integer> getAllQuestions();
 
 	/**
