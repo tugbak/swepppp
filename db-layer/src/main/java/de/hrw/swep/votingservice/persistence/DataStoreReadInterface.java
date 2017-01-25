@@ -15,6 +15,8 @@ public interface DataStoreReadInterface {
 	 */
 	
 	//was machst du 
+	
+	//ajskaksdlakjds
 	List<Integer> getAllQuestions();
 
 	/**
