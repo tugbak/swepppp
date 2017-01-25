@@ -17,6 +17,9 @@ public interface DataStoreReadInterface {
 	//Hallo wie gehts
 	
 	//was machst du 
+	
+	
+	//babababbabaaaa
 	List<Integer> getAllQuestions();
 
 	/**
