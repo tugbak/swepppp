@@ -156,9 +156,38 @@ public class VotingServiceImplIntegrationTest {
 
 	@Test
 	public void testDeleteQuestion() {
+		
+		
 		List<Question> questions = votingService.getAllQuestions();
 		Question question = questions.iterator().next();
-		assertTrue(questions.contains(question));
+		votingService.deleteQuestion(question);
+		
+		
+	
+		
+		//assertTrue(questions.contains(question));
+		
+		
+		
+		//assertEquals(5, votingService.getAllQuestions().size());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	//List<Question> questions = votingService.getAllQuestions();
+		//Question question = questions.iterator().next();
+		//assertTrue(questions.contains(question));
 
 		// Ich weiﬂ leider nicht , wie man den Test korrekt  implemebtiert
 	}
